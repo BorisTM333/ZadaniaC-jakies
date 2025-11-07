@@ -1,0 +1,23 @@
+1. Typy danych i ich zastosowanie:
+
+`string` – przechowuje tekst, np. nazwę aplikacji i komunikaty.
+`int` – przechowuje liczby całkowite, np. liczbę produktów i rabat procentowy.
+`double` – przechowuje liczby zmiennoprzecinkowe, np. średnią ocenę z ułamkami.
+`bool` – przechowuje wartości logiczne (prawda/fałsz), np. dostępność produktu.
+`decimal` – przechowuje wartości dziesiętne o dużej precyzji, używany do obliczeń finansowych.
+
+2. Operatory w obliczeniu `cenaPoRabacie`:
+Użyto operatorów:
+
+`-` (odejmowanie)
+`*` (mnożenie)
+`/` (dzielenie)
+
+3. Zawartość zmiennej `komunikat`:
+`"Aplikacja Sklep Online ma 150 produktów."`
+
+4. Wartość zmiennej `czyPolecana`:
+`true`, ponieważ `sredniaOcena = 4.7` jest większa niż `4.5`, a `czyDostepna = true`, więc oba warunki logiczne są spełnione.
+
+**5. Użycie typu `decimal` dla ceny:
+Typ `decimal` zapewnia większą dokładność w obliczeniach finansowych i eliminuje błędy zaokrągleń charakterystyczne dla typu `double`, co jest istotne przy operacjach na wartościach pieniężnych.
